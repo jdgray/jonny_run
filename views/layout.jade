@@ -1,0 +1,15 @@
+﻿doctype html
+html
+	head
+
+		link(rel='stylesheet', href='/css/style.css')
+		script(data-main='/js/main.js' src='/js/require.js')
+
+		script(type='text/javascript').
+			define('config', !{JSON.stringify(config)});
+
+	body
+		.site-wrapper
+			block content		
+		
+		block footer
