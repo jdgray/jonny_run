@@ -3,13 +3,14 @@ html
 	head
 
 		link(rel='stylesheet', href='/css/style.css')
+
+		script(src='/node_modules/phaser/dist/phaser.js')
+
 		script(data-main='/js/main.js' src='/js/require.js')
+	
+body
 
-		script(type='text/javascript').
-			define('config', !{JSON.stringify(config)});
-
-	body
-		.site-wrapper
-			block content		
-		
-		block footer
+	.site-wrapper
+		block content		
+			
+	block footer

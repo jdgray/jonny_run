@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "tracking": ">=1.1.1",
+    "phaser": ">=2.4.3",
+    "jquery": "*",
+    "backbone": "*",
+    "underscore": "*"
+  }
+}
